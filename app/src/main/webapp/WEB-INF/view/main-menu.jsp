@@ -20,6 +20,10 @@
 
 <br><br>
 
+<a href="student/showForm"> Student form </a>
+
+<br><br>
+
 <input type="button" onclick="doSomeWork()" value="Click Me"/>
 
 
