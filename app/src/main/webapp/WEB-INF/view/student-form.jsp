@@ -30,6 +30,23 @@
 
        </form:select>
        <br><br>
+       Favorite Language:
+
+       <form:radiobuttons path="favoriteLanguage" items="${student.favoriteLanguageOptions}" />
+
+       <%--Java <form:radiobutton path="favoriteLanguage" value="Java" />
+       C# <form:radiobutton path="favoriteLanguage" value="C#" />
+       PHP <form:radiobutton path="favoriteLanguage" value="PHP" />
+       Ruby <form:radiobutton path="favoriteLanguage" value="Ruby" />--%>
+
+       <br><br>
+       Operating Systems:
+
+       Linux <form:checkbox path="operatingSystems" value="Linux"/>
+       Mac Os <form:checkbox path="operatingSystems" value="Mac Os"/>
+       Ms Windows <form:checkbox path="operatingSystems" value="Ms Windows"/>
+
+       <br><br>
        <input type="submit" value="Submit"/>
    </form:form>
 
