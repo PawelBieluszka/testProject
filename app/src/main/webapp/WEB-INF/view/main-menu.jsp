@@ -24,8 +24,11 @@
 
 <br><br>
 
-<input type="button" onclick="doSomeWork()" value="Click Me"/>
+<a href="customer/showForm"> Customer form </a>
 
+<br><br>
+
+<input type="button" onclick="doSomeWork()" value="Click Me"/>
 
 </body>
 
